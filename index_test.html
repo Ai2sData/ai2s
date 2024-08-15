@@ -1,1 +1,692 @@
-simply test
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>AI2S @ KDD 2024</title>
+
+    <!-- favicon -->
+    <link href="https://github.com/fluidicon.png" rel=icon>
+
+    <!-- web-fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,500' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Style CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar">
+<div id="main-wrapper">
+    <!-- Page Preloader -->
+    <div id="preloader">
+        <div id="status">
+            <div class="status-mes"></div>
+        </div>
+    </div>
+
+    <header class="header">
+        <!-- Navigation -->
+        <nav class="navbar main-menu" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!--
+                        <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo.png" alt=""></a>
+                    -->
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden"><a href="#page-top"></a></li>
+                        <li><a class="page-scroll" href="#section-intro">About</a></li>
+                          <li><a class="page-scroll" href="#cfp">CFP</a></li>
+ <!--                        <li><a class="page-scroll" href="#section-invited">Keynote Speakers</a></li>-->
+		        <li><a class="page-scroll" href="#section-talks">Invited Talks</a></li> 
+ <!-- 			<li><a class="page-scroll" href="#section-firechat">Fireside Chat</a></li>-->
+			<li><a class="page-scroll" href="#section-panel">Panel Discussion </a></li>
+<!--                         <li><a class="page-scroll" href="#papers">Accepted Papers</a></li> -->
+			    <li><a class="page-scroll" href="#Schedule">Schedule</a></li>
+                        <li><a class="page-scroll" href="#section-organizers">ORGANIZERS</a></li>
+<!-- 			 <li><a class="page-scroll" href="#pc">Program Committe</a></li> -->
+<!--                        <li><a class="page-scroll" href="#section-ajenda">Agenda</a></li>-->
+<!--                        <li><a class="page-scroll" href="#section-dates">Important Dates</a></li>-->
+
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+        <!-- .nav -->
+
+    </header>
+
+<div class="jumbotron text-center">
+    <div class="content">
+        <div class="event-date">Aug 26, 2024</div>
+        <h1 style="color: white; font-weight: bold; font-size: 2.5em;">From Innovation to Scale (I2S)</h1>
+        <p style="color: white; font-weight: bold; font-size: 1.2em;">
+            Discuss and learn how to successfully build, commercialize, and scale AI innovations in challenging market conditions
+        </p>
+        <p class="lead">The 2nd Workshop held in conjunction with <a href="https://kdd.org/kdd2024/" class="button scrolly" ">KDD 2024</a></p>
+        <a href="#section-intro"><button type="button" class="btn btn-default btn-lg">See Details</button></a>
+    </div>
+</div>
+
+    <!-- .Jumbotron-->
+
+
+<section id="section-intro" class="section-wrapper about-event gray-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="lead">
+                    In recent years, the AI community has witnessed an exciting acceleration in innovation across foundation models, deep learning, and new AI applications across numerous verticals. AI innovations driven by both academic and industry research labs have rapidly been adopted by big tech companies and startups to deliver value-differentiated products and services.
+                </p>
+                <p class="lead">
+                    For many machine learning researchers looking to commercialize their work, a frequently wondered question is, “How do I kickstart a startup that can commercialize my research innovations?”. ML practitioners in the KDD community are curious about how big tech and startups scale AI research and innovations to be used by millions of users. With rapid advances in generative AI algorithms, the landscape is evolving around the opportunities and challenges of building robust and scalable generative solutions.
+                </p>
+                <p class="lead">
+                    The second edition of this interactive workshop aims to build on this discourse focusing on two aspects: First, bringing together invited <b>AI thought leaders</b> from academia, big tech, and startups to share their perspective on realizing the opportunities of GenAI in various business verticals via use-case themes, challenges, and risks. Second, inviting <b>startup founders</b> (from academia and industry) focused on verticalized GenAI offerings to share their journey in product commercialization and the challenges of the GenAI productization landscape.
+                </p>
+
+                <div style="margin-top: 20px;">
+                    <p style="font-size: 18px; font-weight: bold;">Topics of interest in this workshop include but are not limited to:</p>
+                    <ul style="list-style-type: disc; margin-left: 30px;">
+                        <li>Commercializing AI research innovations</li>
+                        <li>Scaling AI startups</li>
+                        <li>Acquiring customers in challenging market conditions</li>
+                        <li>Building successful teams</li>
+                        <li>Pitching for initial funding</li>
+                        <li>Developing and executing go-to-market strategies</li>
+                        <li>Best practices for AI innovation</li>
+                    </ul>
+                    <p style="font-size: 18px;">
+                        If you have valuable insights and experiences to share in any of these areas, we encourage you to submit a proposal to speak at the I2S workshop. We welcome submissions from AI thought leaders, startup founders, and other professionals with relevant expertise.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="cfp" class="section-wrapper about-event gray-bg" style="color: #333333;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h1 style="color: black;">Call for Papers and Panel Proposals</h1>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <p class="lead" style="color: #333333; font-weight: bold;">
+                    <b>Call for Papers:</b> 
+	        <ul style="list-style-type: disc; margin-left: 20px;">
+	            <li style="color: black;">1. Papers that highlight the use of Gen AI in any vertical from health to manufacturing and finance that highlight the challenges to scale foundation model-based verticalized solutions and how the described research manages to circumvent these challenges to scale innovation.</li>
+	            <li style="color: black;">2. All submissions should be in PDF format according to the latest <a href="http://www.acm.org/publications/proceedings-template">ACM template published in the ACM guidelines</a> (two-column format). All submissions must be in English. We invite you all to contribute: full papers (up to 10+2 pages) and short papers (up to 5+1 pages). Full workshop papers should not exceed 12 pages in length (maximum 8 pages for the main paper content + maximum 2 pages for appendices + maximum 2 pages for references).</li>
+	            <li style="color: black;">3. Please note that at least one of the authors of each accepted paper is required to register for the KDD conference to present the paper during the I2S@2024 workshop.</li>
+	        </ul>
+                </p>
+<p class="lead" style="color: #333333; font-weight: bold;">
+    <b>Call for Panel Proposals:</b>
+    <ul style="list-style-type: disc; margin-left: 20px; padding-left: 20px;">
+        <li style="color: black;">We invite panel proposals that expand on the current discourse on scaling AI innovation both at technical and strategic levels. We'd be open to all areas and applications of AI (with an emphasis on GenAI and potentially multi-modal applications), associated challenges, and strategies in the current commercial landscape for verticalized offerings.</li>
+        <li style="color: black;">1. All submissions should be in PDF format according to the latest <a href="http://www.acm.org/publications/proceedings-template">ACM template published in the ACM guidelines</a> (two-column format).  All submissions must be in English and should include the following in your submission</li>
+	<li style="color: black; margin-left: 20px;">Proposer name and affiliation.</li>
+        <li style="color: black; margin-left: 20px;">LinkedIn profile link and email address.</li>
+        <li style="color: black; margin-left: 20px;">Role on the panel: Moderator or Panelist or Panel Organizer.</li>
+        <li style="color: black; margin-left: 20px;">Proposed Panel Title (10 words max).</li>
+        <li style="color: black; margin-left: 20px;">Proposed panel Abstract/summary (100 words max).</li>
+        <li style="color: black; margin-left: 20px;">Names of Potential Panelists and their affiliation (Proposer should make an attempt to ensure these folks are available and ready to be at KDD in person to be on the panel).</li>
+        <li style="color: black; margin-left: 20px;">Sample questions for the panel to address.</li>
+        <li style="color: black;">2. Please note that panel moderators and guests are required to attend the workshop during the I2S@2024 workshop.</li>
+    </ul>
+</p>
+
+                <p class="lead" style="color: #333333; font-weight: bold;">
+                    <b>Important Dates (AOE):</b>
+                    <ul style="list-style-type: disc; margin-left: 20px;">
+                        <li style="color: black;">Submission Deadline: 15 June, 2024</li>
+                        <li style="color: black;">Decision: 8 July, 2024</li>
+                        <li style="color: black;">Workshop: 25 August, 2024</li>
+                        <li><a href="https://easychair.org/conferences/?conf=i2s1" class="button scrolly" style="color: black;">Submission Link: Please submit through <b style="font-weight: bold;">Easychair AI2S</b> </a></li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- <section id="section-invited" class="section-invited gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Keynote Speakers</h1>
+                    </div>
+                </div>
+            </div>
+		 </div>
+
+	<div class="container">	
+		<div class="row" id="section-invited-1">
+               		<div class="col-sm-0 col-md-4">
+		       		<figure class="thumbnail">
+                        		<img src="img/vijay.jpeg" class="img-responsive" alt="Image"></a>
+                    		</figure>
+		</div>
+                	<div class="col-sm-0 col-md-8">
+                   		<div class="section-title">
+                        		<h3 align="left">AI value creation - a view across aisles
+
+</h3>
+					<p></p>
+					<h4  align="left">Vijay Narayanan</a></h4>
+                        		<h4  align="left"><small>
+						Fellow and Partner, Fellows Fund</small></h4>
+					<p></p>
+                        		<h5 align="justify"> 
+AI has the potential to fundamentally rewire value chains in every sphere of human activity. In this talk, I will share some perspectives of how AI can create value, from my experience both as an operational leader in small and large enterprises and investing in AI startups"
+
+				</h5>
+					<p></p>
+					<h5 align="justify" >Speaker Bio:
+						<br>
+Vijay K Narayanan is currently a Fellow and partner at Fellows Fund, an early-stage VC composed of a network of senior technical executives in data, ML/AI, life sciences, security etc. He was earlier the Chief AI officer at ServiceNow, leading research, science and engineering at Pinterest, the Head of Algorithms and AI Solutions at Microsoft, Director at Yahoo Labs,  Analytic Science manager at FICO and a post-doc fellow at Princeton Univerrsity. He holds a Ph.D in Astronomy and has worked in data and ML platforms, products and solutions for over 2 decades in both consumer and enterprise companies.						</br>
+
+				</h5>
+				</div>
+                    		</div>
+                	</div>
+            	</div>
+		<div class="row" id="section-invited-1-bio">
+                	<div class="col-sm-0 col-md-6">
+                    		<div class="section-title">
+                        		<h3></h3>
+                        						
+                    		</div>
+                	</div>
+			<div class="col-sm-0 col-md-6">
+                    		<div class="section-title">
+					<h3></h3>
+                        		
+                	</div>
+		</div>
+	</div>    -->
+
+<!-- 
+ <section id="section-talks" class="section-invited gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Invited Speakers</h1>
+                    </div>
+                </div>
+            </div>
+		 </div> 
+
+	
+		<div class="container">	
+		<div class="row" id="section-invited-1">
+               		<div class="col-sm-0 col-md-4">
+		       		<figure class="thumbnail">
+                        		<img src="img/bart.jpeg" class="img-responsive" alt="Image"></a>
+                    		</figure>
+		</div>
+                	<div class="col-sm-0 col-md-8">
+                   		<div class="section-title">
+                     		<h3 align="left">Froomle's Journey from Research to Recommendations
+
+</h3>
+					<p></p> 
+					<h4  align="left">Bart Goethals</a></h4>
+                        		<h4  align="left"><small>Professor at University of Antwerp, Co-founder and CTO Froomle</small></h4>
+					<p></p>
+                        		<h5 align="justify"> 
+
+				</h5>
+					<p></p>
+					<h5 align="justify" >Speaker Bio:
+						<br>
+Bart Goethals is professor at the department of computer science of the University of Antwerp in Belgium. He leads the Adrem Data Lab research group, which performs fundamental research on the structures, the basic properties and the power of languages, algorithms and methodologies for processing and analysing large quantities of data. His primary research interests are the study of recommender systems and data mining techniques to efficiently find interesting patterns and properties in large databases. He received several awards for his publications. He was organizer and program chair of ECML PKDD 2008, program chair of SIAM DM 2010, and general chair of IEEE ICDM 2012.  He has served as general chair of the ECML PKDD Steering Committee, and is action editor of the Data Mining and Knowledge Discovery journal, Specialty Chief Editor of the Recommender Systems section in Frontiers in Big Data, and associate editor of ACM Transactions on Recommender Systems, and ACM transactions on Information Systems, and he was Editor-in-Chief of the ACM SIGKDD Explorations newsletter. In 2016, he founded the spin-off company Froomle which provides a SAAS recommender systems platform to its customers. 
+						</br>
+				</h5>
+				</div>
+                    		</div>
+                	</div>
+            	</div>
+		<div class="row" id="section-invited-1-bio">
+                	<div class="col-sm-0 col-md-6">
+                    		<div class="section-title">
+                        		<h3></h3>
+                        						
+                    		</div>
+                	</div>
+			<div class="col-sm-0 col-md-6">
+                    		<div class="section-title">
+					<h3></h3>
+                        		
+                	</div>
+		</div>
+	</div>   
+	<div class="container">	
+		<div class="row" id="section-invited-1">
+               		<div class="col-sm-0 col-md-4">
+		       		<figure class="thumbnail">
+                        		<img src="img/hema.jpeg" class="img-responsive" alt="Image"></a>
+                    		</figure>
+		</div>
+                	<div class="col-sm-0 col-md-8">
+                   		<div class="section-title">
+
+					<p></p> 
+					<h4  align="left">Hema Raghavan</a></h4>
+                        		<h4  align="left"><small>Co-founder and Head of Engineering @Kumo.AI</small></h4>
+					<p></p>
+                        		<h5 align="justify"> 
+
+				</h5>
+					<p></p>
+					<h5 align="justify" >Speaker Bio:
+						<br>
+Hema is a co-founder and Head of Engineering at Kumo AI, where the team is building a product that makes Querying the Future (predictions) as easy as querying the past (SQL). At its heart Kumo uses Graph Neural Networks and the team at Kumo believes that GNNs will transform how AI is done on data warehouses in a similar way that the LLM revolution has impacted areas of text, NLP and vision.  
+
+Hema received her PhD from Umass Amherst in 2007 in Search and Information Retrieval. She started her career in Applied Research labs in Yahoo! and IBM. She also spent nearly a decade in LinkedIn building innovative systems to power Linkedin's notifications ecosystems and People You May Know. She is not only well known for building industry scale AI systems, but also for building teams and companies that are inclusive and diverse and where innovation is at the forefront. 						</br>
+
+				</h5>
+				</div>
+                    		</div>
+                	</div>
+            	</div>
+		<div class="row" id="section-invited-1-bio">
+                	<div class="col-sm-0 col-md-6">
+                    		<div class="section-title">
+                        		<h3></h3>
+                        						
+                    		</div>
+                	</div>
+			<div class="col-sm-0 col-md-6">
+                    		<div class="section-title">
+					<h3></h3>
+                        		
+                	</div>
+		</div>
+	</div>   
+
+    </section> -->
+
+
+<!-- 
+	<section id="section-firechat" class="section-invited gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1> Fireside Chat</h1>
+                    </div>
+                </div>
+            </div>
+		 </div>
+
+	<div class="container">	
+		<div class="row" id="section-invited-1">
+               		<div class="col-sm-0 col-md-4">
+		       		<figure class="thumbnail">
+                        		<img src="img/luzhang.jpeg" class="img-responsive" alt="Image"></a>
+                    		</figure>
+                 	</div>
+                	<div class="col-sm-0 col-md-8">
+                   		<div class="section-title">
+
+					<p></p> 
+					<h4  align="left">Lu Zhang</a></h4>
+                        		<h4  align="left"><small>Founder & Managing Partner</small></h4>
+					<p></p>
+                        		<h5 align="justify"> 
+
+				</h5>
+					<p></p>
+					<h5 align="justify" >Speaker Bio:
+						<br>
+Lu Zhang, Founder and Managing Partner of Fusion Fund, is a renowned Silicon Valley based investor, a serial entrepreneur, and a Stanford Engineering alumna. Lu is a World Economic Forum (Davos) Young Global Leader and was recently selected as a Best 25 Female Investor by Business Insider. She has also garnered other accolades including the Featured Honoree in VC of Forbes 30 Under 30, Silicon Valley Women of Influence, and Town & Country 50 Modern Swans – Entrepreneurship Influencer. Lu is also on the Jury Board of Cartier Young Leader Award. 
+
+Prior to starting Fusion Fund, she was the Founder and CEO of a medical device company focused on non-invasive technology for the early diagnosis of Type II diabetes (acq. 2013). 
+
+Lu is a frequent speaker at tech events and conferences such as Davos Economic Forum, Future Investment Initiative (FII), Forbes, Web Summit, SuperReturn, etc. and also serves as a mentor and advisor to several tech innovation programs in Silicon Valley. Lu is the board member of the Youth Council of Future Forum and Future Science Award. She received her M.S. in Materials Science and Engineering from Stanford University.						</br>
+
+				</h5>
+				</div>
+                    		</div>
+                	</div>
+            	</div> 
+
+    </section>
+-->
+
+
+<section id="Schedule" class="section-wrapper team white-bg">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-12">
+    <div class="section-title">
+    <h1>Workshop Program</h1>
+    <p>&nbsp;</p>
+    <p><strong>Date:</strong><span style="font-weight: 400;"> Aug 26, 2024</span></p>
+    <p><strong>Time:</strong><span style="font-weight: 400;"> 2:00pm-6:00pm</span></p>
+    <p><strong>Room: 115<br /><br /></strong></p>
+    <p><span style="font-weight: 400;">2:00pm - Opening Remarks (Mohak Shah)</span></p>
+    <p><strong>Session 1: Building and Scaling GenAI ventures</strong></p>
+    <ul>
+    <li><span style="font-weight: 400;">2:10pm - Founder Spotlight 1: </span><a href="https://www.linkedin.com/in/sofusmacskassy/"><span style="font-weight: 400;">Sofus Macskassy</span></a><span style="font-weight: 400;">, Founder, </span><a href="https://www.zaimler.ai/"><span style="font-weight: 400;">Zaimler AI</span></a></li>
+    <li><span style="font-weight: 400;">2:20pm - Founder Spotlight 2: </span><a href="https://www.linkedin.com/in/ankurteredesai/"><span style="font-weight: 400;">Ankur Teredesai</span></a><span style="font-weight: 400;">, CEO, </span><a href="https://cuezen.com/"><span style="font-weight: 400;">CueZen Inc</span></a><span style="font-weight: 400;">, Prof., </span><a href="https://faculty.washington.edu/ankurt/"><span style="font-weight: 400;">Univ of Wash</span></a></li>
+    <li><span style="font-weight: 400;">2:30pm - Founder Spotlight 3: </span><a href="https://www.linkedin.com/in/benjamincistecky/"><span style="font-weight: 400;">Benjamin Cistecky</span></a><span style="font-weight: 400;">, </span><a href="https://resaro.ai/"><span style="font-weight: 400;">Resaro AI</span></a></li>
+    <li><span style="font-weight: 400;">2:40pm - Founder Spotlight 4: </span><a href="https://www.linkedin.com/in/carlazaldua/"><span style="font-weight: 400;">Carla Zaldua Aguirre</span></a><span style="font-weight: 400;">, CEO, </span><a href="https://accexible.com/"><span style="font-weight: 400;">acceXible</span></a></li>
+    </ul>
+    <p><span style="font-weight: 400;"><strong>Panel 1:&nbsp;Gen AI - implications for ventures, product development, and go-to-market</strong></span></p>
+    <ul>
+    <li><span>2:50pm &ndash;3:50pm&nbsp;&nbsp;</span>Panel discussion moderated by <a href="https://www.linkedin.com/in/michaelzeller/">Michael Zeller</a>, <a href="https://www.temasek.com.sg/en/index">Temasek</a>&nbsp;</li>
+    </ul>
+    <p>Networking Break (40 mins,&nbsp;3:50pm &ndash;4:30pm)</p>
+    <p><strong>Session 2: Investing in AI</strong></p>
+    <ul>
+    <li><span style="font-weight: 400;">4:30pm &ndash; VC fund spotlight 1: </span><a href="https://www.linkedin.com/in/arnaud-barthelemy-42a21910b/"><span style="font-weight: 400;">Arnaud Barthelemy</span></a><span style="font-weight: 400;">, </span><a href="https://aicapital.ai/"><span style="font-weight: 400;">Alpha Intelligence Capital</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+    <li><span style="font-weight: 400;">4:40pm &ndash; VC fund spotlight 2: </span><a href="https://www.linkedin.com/in/michaelzeller/"><span style="font-weight: 400;">Michael Zeller</span></a><span style="font-weight: 400;">/</span><a href="https://www.linkedin.com/in/benjamincistecky/"><span style="font-weight: 400;">Benjamin Cistecky</span></a><span style="font-weight: 400;">, </span><a href="https://www.temasek.com.sg/en/index"><span style="font-weight: 400;">Temasek</span></a></li>
+    </ul>
+    <p><strong>Panel 2: Thoughts from early stage investors: Raising capital for your venture in the GenAI era</strong></p>
+    <ul>
+    <li><span style="font-weight: 400;">&nbsp;4:50pm -5:50pm Panel discussion&nbsp;</span><span style="font-weight: 400;">moderated by</span> <a href="https://www.linkedin.com/in/mohakshah1/"><span style="font-weight: 400;">Mohak Shah</span></a><span style="font-weight: 400;">, </span><a href="https://praescivi.com/"><span style="font-weight: 400;">Praescivi Advisors</span></a></li>
+    </ul>
+    <p><span style="font-weight: 400;">5:50pm &ndash; Closing remarks</span></p>
+    <p><span style="font-weight: 400;">6:00pm &ndash; Workshop Ends</span></p>
+    <p>&nbsp;</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+
+
+<!--     <section id="section-panel" class="section-wrapper team gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Panel Discussion</h1>
+                    </div>
+                </div>
+            </div>
+		    
+            <div class="row">
+
+		<div class="row">
+                <div class="col-sm-3 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="https://faculty.washington.edu/ankurt/" target="view_window"><img src="img/ankur.jpeg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h4><small>Ankur M. Teredesai (Moderator) </small>
+                            </h4>
+                            <h5>
+                                <small> CueZen Inc., & University of Washington</small></h5>
+                        </figcaption>
+                    </figure>
+                </div>
+
+		    
+                <div class="col-sm-3 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="https://www.linkedin.com/in/michaelzeller/" target="view_window"><img src="img/mz.jpeg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h4><small>Michael Zeller</small>
+                            </h4>
+                            <h5>
+                                <small> Temasek </small></h5>
+                        </figcaption>
+                    </figure>
+                </div>
+                
+                <div class="col-sm-3 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="https://www.linkedin.com/in/vijay-k-narayanan-817b75/" target="view_window"><img src="img/vijay.jpeg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h4><small>Vijay Naranan</small>
+                            </h4>
+                            <h5><small>ServiceNow</small></h5>
+                        </figcaption>
+                    </figure>
+                </div>
+                
+               <div class="col-sm-3 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="https://www.linkedin.com/in/luzhangvc/" target="view_window"><img src="img/luzhang.jpeg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h4><small>Lu Zhang</small></h4>
+                            <h5>
+                                <small>Fusion Fund</small>
+                            </h5>
+                        </figcaption>
+                    </figure>
+                </div>
+               
+    </section>
+	-->
+
+
+    <section id="section-organizers" class="section-wrapper team gray-bg">
+        <div class="container">
+            <div class="row" justify-content-center">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>WORKSHOP ORGANIZERS</h1>
+                    </div>
+                </div>
+            </div>
+		    
+            <div class="row" justify-content-center">
+		     <div class="col-sm-2 col-md-2">
+		     </div>
+                <div class="col-sm-2 col-md-2">
+                    <figure class="thumbnail">
+                        <a href="https://faculty.washington.edu/ankurt/" target="view_window"><img src="img/ankur.jpeg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h4><small>Ankur M. Teredesai</small>
+                            </h4>
+                            <h5>
+                                <small> CueZen Inc., & University of Washington</small></h5>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+		     <div class="col-sm-1 col-md-1">
+		     </div>
+
+                <div class="col-sm-2 col-md-2">
+                    <figure class="thumbnail">
+                        <a href="https://www.linkedin.com/in/michaelzeller/" target="view_window"><img src="img/mz.jpeg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h4><small>Michael Zeller</small>
+                            </h4>
+                            <h5><small>Temasek</small></h5>
+                            
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+		     <div class="col-sm-1 col-md-1">
+		     </div>
+	        <div class="col-sm-2 col-md-2">
+                    <figure class="thumbnail">
+                        <a href="https://www.linkedin.com/in/mohakshah1/" target="view_window"><img src="img/mohak.jpeg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h4><small>Mohak Shah</small>
+                            </h4>
+                            <h5><small>Praescivi Advisors</small></h5>
+                            
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+	    </div>
+		<div class="row" justify-content-center">
+      		     <div class="col-sm-2 col-md-2">
+		     </div>
+                <div class="col-sm-2 col-md-2">
+                    <figure class="thumbnail">
+                        <a href="https://www.linkedin.com/in/shenghua-bao-67958a7/" target="view_window"><img src="img/shb.jpeg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h4><small>Shenghua Bao</small>
+                            </h4>
+                            <h5><small>Amazon</small></h5>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+   		 <div class="col-sm-1 col-md-1">
+		     </div>             
+                <div class="col-sm-2 col-md-2">
+                    <figure class="thumbnail">
+                        <a href="https://www.linkedin.com/in/weehyongtok/" target="view_window"><img src="img/wht.jpeg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h4><small>Wee Hyong Tok</small></h4>
+                            <h5>
+                                <small>Microsoft</small>
+                            </h5>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+		 <div class="col-sm-1 col-md-1">
+		     </div>
+                <div class="col-sm-2 col-md-2">
+                    <figure class="thumbnail">
+                        <a href="https://www.linkedin.com/in/linsey-pang-50590450/" target="view_window"><img src="img/xlp.jpeg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h4><small>Linsey Pang</small>
+                            </h4>
+                            <h5><small>Salesforce</small></h5>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+ </div>
+
+            </div>
+		<p> <center> <strong>Contact: ai2s.workshop@gmail.com </strong></center></p>
+
+        </div>
+    </section>
+
+<!--
+<section id="pc" class="section-wrapper team white-bg">
+		   <div class="container">
+			   <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Program Committee</h1>
+                    </div>
+                        <p> Philippe Laban, Salesforce</p>
+			<p> Zhensong Qian, Amazon</p>
+			<p> Donglin Hu , Salesforce</p>
+			<p> Xinghao Yang, University of Technology Sydney</p>
+			<p> Ali	Braytee, University of Technology, Sydney</p>
+			<p> Aneesh Chivukula, BITS Pilani</p>
+			<p> Mingze Ni, University of Technology, Sydney</p>
+			<p> Vito Ostuni, Netflix </p>
+			<p> Xianjing Liu, Twitter Inc.</p>
+			<p> Xue	Li, Microsoft</p>
+			<p> Raghavendra	Chalapathy, Walmart Labs </p>
+			
+		
+		   </div>
+	 </div>
+            </div>
+
+	</section>
+-->
+    
+
+    <footer class="footer">
+        <div class="copyright-section">
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="copytext text-center">&copy; Conference. All rights reserved | Website Organized By: <a href="https://github.com/Connorlee487">Connor Lee, Albert Wang</a> | Template By: <a href="https://uicookies.com">uiCookies</a></div>
+                </div>
+            </div>
+            <!-- .container -->
+        </div>
+        <!-- .copyright-section -->
+    </footer>
+    <!-- .footer -->
+
+</div>
+<!-- #main-wrapper -->
+
+
+<!-- jquery -->
+<script src="js/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+
+<!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+
+<!--<script src="js/one-page-nav.js"></script>-->
+<script src="js/scripts.js"></script>
+</body>
+</html>
